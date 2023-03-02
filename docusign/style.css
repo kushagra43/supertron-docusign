@@ -38,7 +38,7 @@ body {
 
 .header-img {
     max-width: 600px;
-    width: 120%;
+    width: 100%;
     margin-bottom: -40px;
 }
 
@@ -53,6 +53,8 @@ body {
     width: 100%;
     border-radius: 20px;
     min-height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .header-form {
@@ -171,17 +173,12 @@ body {
     flex: 1.5;
 }
 
+.overflow-visible {
+    overflow: visible !important;
+}
 
 
 /* About */
-.about-div {
-    background-image: url('about-background.png');
-}
-
-.cl-50 {
-    width: 50ch;
-}
-
 .subheading {
     font-size: 30px;
 }
@@ -198,6 +195,7 @@ body {
 .about-logo {
     max-height: 100px;
 }
+
 
 /* Offerings */
 .offerings-heading {
@@ -304,7 +302,6 @@ body {
 .robotImg {
     max-width: 600px;
     height: auto;
-    margin-right: -100px;
     width: 100%;
 }
 
@@ -492,13 +489,11 @@ body {
     padding: 40px 0;
 }
 
-.p60 {
-    padding: 60px;
+.p60v {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-.p60v {
-    padding: 60px 0;
-}
 
 .p100v {
     padding: 100px 0 300px 0;
@@ -733,10 +728,6 @@ body {
 
     }
 
-    .about-div {
-        background-image: url('about-background.png');
-    }
-
     .small {
         font-size: 14px;
         text-align: center;
@@ -854,7 +845,7 @@ body {
         max-height: 140px;
     }
 
-    .p100v{
+    .p100v {
         padding-bottom: 240px;
     }
 
